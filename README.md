@@ -8,7 +8,9 @@
 -Invokes the OrderSend function to dispatch the trade request and obtain the result.
 
 SetTypeFillingBySymbol function:
+
 This function determines the order fill type (Fill or Kill, Immediate or Cancel, or Return) based on the symbol's filling policy.
 
 GetMinTradeLevel function:
+
 Calculates the minimum trading level by considering the freeze level and symbol stops level. Adjusts the minimum level to ensure it falls within specific limits and returns the result."
