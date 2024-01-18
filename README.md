@@ -2,7 +2,9 @@
  This function executes the primary logic for initiating a trade in MQ5
 
 -Computes the opening price, take-profit levels, and stop-loss based on symbol information and user-provided parameters.
+
 -Prepares a trade request (MqlTradeRequest) with essential details such as symbol, volume, order type, deviation, comment, magic number, etc.
+
 -Invokes the OrderSend function to dispatch the trade request and obtain the result.
 
 SetTypeFillingBySymbol function:
